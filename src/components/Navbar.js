@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import LLLogo from "../images/logos/littleLemonLogo.png";
 
 const style = {
   navActive: "nav-font px-3 nav-item nav-link nav-active",
