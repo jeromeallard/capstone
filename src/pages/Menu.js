@@ -16,7 +16,7 @@ const Menu = () => {
         </div>
 
         <div className="my-5">
-          <h2>Main Course</h2>
+          <h2>Main Dishes</h2>
           <div className="special-body">
             {data.map((element, index) => {
               return element.type === "main" ? <Card key={index} data={element} /> : "";
